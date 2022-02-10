@@ -28,6 +28,7 @@ fetch("http://localhost:4000/api/article/")
     document.querySelectorAll(".addFavorite").forEach(star => {
       star.addEventListener("click",function(){
         addFavorites(this.dataset.id); /*39:24*/
+        this.setAttribute("class","fa-stack fa-2x addFavorite activated")
       })
     })
   });

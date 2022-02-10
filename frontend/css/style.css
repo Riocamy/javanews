@@ -53,3 +53,7 @@ h1{
     color: yellow;
     cursor: pointer;
 }
+
+.article .addFavorite.activated{
+  color: yellow;
+}
